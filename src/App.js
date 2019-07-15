@@ -1,9 +1,11 @@
 import React from "react";
 
+import profile from "./assets/profile.jpg";
+
 import "./App.css";
 
 function App() {
-  return <h1>Hello Renato</h1>;
+  return <img width="200" src={profile} />;
 }
 
 export default App;
